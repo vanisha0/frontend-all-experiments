@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8b500, #ffcc70);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Container */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Feedback Colors */
+input:focus {
+  outline: none;
+  border-color: #f8b500;
+}
+
+input.valid {
+  border-color: green;
+  background-color: #e7ffe7;
+}
+
+input.invalid {
+  border-color: red;
+  background-color: #ffe7e7;
+}
+
+/* Error & Success Messages */
+.error-message {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  background: #f8b500;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e1a400;
+}

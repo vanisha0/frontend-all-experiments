@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Web Page</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    header, section, footer {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        background-color: #e0f7fa;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      section {
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Website</h1>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>This site demonstrates responsive design and Git version control.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Responsive Web Page Example</p>
+  </footer>
+</body>
+</html>
